@@ -5,7 +5,7 @@ gem 'octokit', '~> 2.0'# should list the octokit gem specifying version 2.0 with
 gem 'awesome_print', :git => 'git@github.com:awesome-print/awesome_print.git' # should list the awesome_print gem specifying a remote git repository (use github SSH)
 
  
-group :development do
+group :development do # should contain the pry gem in the development group using a hash argumentto the gem method
 gem "pry"
 end
 
