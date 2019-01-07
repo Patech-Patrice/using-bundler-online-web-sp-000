@@ -9,7 +9,7 @@ group :development do # should contain the pry gem in the development group usin
 gem "pry"
 end
 
-group :test do
+group :test do #should contain the rspec gem in the test group using block syntax
 gem "rspec"
 end
 
